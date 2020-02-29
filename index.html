@@ -3,17 +3,98 @@
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Give Me a Title!</title>                           <!-- Give Title -->
+    <title>Henry Hansen Personal Website</title>                           <!-- Give Title -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./index_files/style.css">  <!-- Insert StyleSheet -->
     <link rel="icon" href="https://cardadfar.github.io/stuco_webdev_website/assets/files/cool-icon.png">                    <!-- Insert Icon -->
     <script src="./index_files/jquery.min.js.download"></script>
 </head>
+
+<style>
+.nav-bar {
+		width: 100%;
+		height: 50px;
+		margin: 0;
+		background: #4682B4;
+		position: sticky;
+		top: 0; }
+.nav-bar > .element {
+	width: 19.5%;
+	line-height: 50px;
+	text-align: center;
+	color: black;
+	display: inline-block;
+	margin: 0;
+	font-family: Arial;
+	text-decoration: none; }	
+
+.nav-bar > .element:hover { 
+  			font-weight: bold;
+		}
+.title {
+			text-align: center;
+			font-family: Arial, Helvetica, sans-serif;
+			color: #4169E1;
+			margin: 10px; 
+			border: 100px;
+		}
+.profilepicture {
+			text-align: center;
+		}		
+.norm_text {
+			text-align: left;
+			font-family: Arial, Helvetica, sans-serif;
+			color: black;
+			background-color: white;			
+			margin: 10px; 
+			border: 190px solid white;
+			border-color: white;
+		}
+.image{
+	
+	}
+.image:hover { 
+  			width = "50" 
+  			height = "50"
+		}
+body {
+  background-color: #E0FFFF;
+}
+</style>
+
 <body>
+	
+	<div class= "nav-bar"> 
+		<a href = "nav-bar.html" class = "element"> Home </a> 
+		<a href = "nav-bar.html" class = "element"> About </a>
+		<a href = "nav-bar.html" class = "element"> Skills </a> 
+		<a href = "file:///C:/Users/henry/OneDrive/Desktop/Henry%20Hansen%20Resume%202020.pdf" class = "element"> Pages </a>
+		<a href = "nav-bar.html" class = "element"> Contact </a>
+		</div>
+	<div class= "title"> <h1> Henry Hansen </h1> <h3> Mechanical Engineer</h3> </div>
 
-    <p> Hello Pittsburgh </p>
+	<div class= "profilepicture"> <img src = "C:\Users\henry\OneDrive\Desktop\Stuff\Doc\Images\Pictures\HenryPic2.jpg" width="400"> </div>
+	
+    <div class= "norm_text"> <p>I am currently a student in mechanical engineering at Carnegie Mellon University. I have an interest in robotics and would like to I to get a job in which I can contribute to that field. I have taken a variety of courses on mechanical engineering such as statics, thermodynamics, fluid mechanics, and physics. I have also worked on multiple team projects which have given me experience working with others. One group project I worked on was the mousetrap car in which a car was designed to be powered by a mousetrap. I hope that through my career I can, using mechanical systems, help solve problems people face and make life easier. </p> 
+    <p>   </p>	
+    <p> If you would like to contact me please leave your name, email, and phone number here. </p>
+    <p> Please enter name here:</p>
+	<input type= "text" id=‘name-field’>
+	<p> Please enter email here:</p>
+	<input type= "text" id=‘email-field’>
+	<p> Please enter phone number here:</p>
+	<input type= "text" id=‘phone-field’>
+	</div>
+    
 
-    <script type="text/javascript" src="./index_files/interactions.js.download"></script>    <!-- Insert JQuery Script -->
+    <a href = "https://www.linkedin.com/in/henry-hansen-897237197/" class = "image"> <img id= "img" src = "C:\Users\henry\OneDrive\Desktop\Stuff\Logos\LinkedIn-Logo.png" width = "40" height = "40"> </a>
+    <a href = "https://www.facebook.com/henry.hansen.3781" class = "image"> <img id= "img" src = "C:\Users\henry\OneDrive\Desktop\Stuff\Logos\download.png" width = "40" height = "40"> </a>
+    <a href = "https://www.instagram.com/henryrhansen/" class = "image"> <img id= "img" src = "C:\Users\henry\OneDrive\Desktop\Stuff\Logos\instagram-logos-png-images-free-download-2.png" width = "40" height = "40"> </a>
+
+	
+	
+
+    <script type="text/javascript" src="./index_files/interactions.js.download"></script>
 
 
 
